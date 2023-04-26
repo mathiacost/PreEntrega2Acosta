@@ -1,0 +1,192 @@
+@font-face {
+    font-family: cinemaR;
+    src: url(fonts/Cinematografica-Regular-trial.ttf);
+}
+
+@font-face {
+    font-family: cinemaB;
+    src: url(fonts/Cinematografica-Bold-trial.ttf);
+}
+
+
+*{
+    margin: 0;
+    border: 0;
+    font-family: Courier, 'Courier New', monospace;
+    font-size: 16px;
+    box-sizing: border-box;
+    color: aliceblue;
+}
+
+header{
+    height: 100%;
+    width: 100%;
+    background-color: #3a3a3b;
+    padding: 15px;   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.logo{
+    float: left;
+    
+}
+
+.logo a{
+    text-decoration: none;
+    font-family: cinemaB, Courier, 'Courier New', monospace;
+    letter-spacing: 10px;
+    font-size: 50px;
+}
+
+.logo span{
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-family: cinemaB, Courier, 'Courier New', monospace;
+    color: rgb(219, 171, 81);
+    text-shadow: 0 0 10px black;
+}
+
+.barra{
+    float: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.menu{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+
+}
+
+.menu a{
+    font-size: 35px;
+    font-family: cinemaR, Courier, 'Courier New', monospace;
+    letter-spacing: 5px;
+    color: aliceblue;
+    text-decoration: none;
+    border: 3px solid #3a3a3b;
+}
+
+.menu a:hover{
+    color: #333;
+    border: 3px groove #3a3a3b;
+    background-color: aliceblue;
+}
+
+main{
+    padding: 2%;
+    height: 100vh;
+    width: 100%;
+    background-color: #505050;
+}
+
+#profile{
+    height: 400px;
+    width: auto;
+    border-radius: 20%;
+}
+
+#descProfile{
+    float: right;
+}
+
+footer{
+    height: 100%;
+    width: 100%;
+    text-align: left;
+    background-color: #3a3a3b;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.fItem1{
+    padding: 30px;
+    text-align: left;
+}
+
+.line{
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-family: cinemaB, Courier, 'Courier New', monospace;
+}
+
+.copyright{
+    width: 550px;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-family: cinemaB, Courier, 'Courier New', monospace;
+    padding: 67px 30px 67px 30px;
+    text-align: center;
+}
+
+.ctFooter{
+    padding: 67px 30px 67px 30px;
+    font-size: 35px;
+    letter-spacing: 3px;
+    font-family: cinemaB, Courier, 'Courier New', monospace;
+    text-align: center;
+}
+.ctFooter a{
+    font-size: 35px;
+    font-family: cinemaB, Courier, 'Courier New', monospace;
+}
+
+.sec{
+width: 100%;
+}
+
+h2{
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+    height: 50px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #3a3a3b;
+}
+
+.carrousel{
+    width: 70%;
+    height: auto;
+}
+
+.mainAll{
+    height: 100%;
+    padding:70px;
+}
+
+.form{
+    height: auto;
+    width: 50%;
+    padding: 35px;
+    background-color: #3a3a3b;
+}
+.fImp{
+    padding: 10px;
+}
+
+.imp{
+    width: 100%;
+}
+
+.message{
+    height: 60px;
+}
+
+.boton{
+    height: 60px;
+    width: 120px;
+    padding: 15px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #505050;
+    border: 3px solid black;
+}
