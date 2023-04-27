@@ -28,43 +28,60 @@ header{
     justify-content: space-between;
 }
 
-.logo{
+/* .logo{
     float: left;
     
-}
+} */
 
-.logo a{
+.logo {
     text-decoration: none;
+    color: #c2c2c2 (219, 171, 81); 
     font-family: cinemaB, Courier, 'Courier New', monospace;
     letter-spacing: 10px;
-    font-size: 50px;
+    font-size: 40px;
+    float: right;
+    display: flex;
+    flex-direction: row;
 }
 
 .logo span{
-    font-size: 50px;
+    font-size: 40px;
     letter-spacing: 10px;
     font-family: cinemaB, Courier, 'Courier New', monospace;
     color: rgb(219, 171, 81);
     text-shadow: 0 0 10px black;
+    float: right;
+    display: flex;
+    flex-direction: row;
 }
 
-.barra{
+.navbar{
+    background-color: #3a3a3b !important;
+}
+
+.navbar-toggler{
+    border: none;
+
+}
+
+.navbar-nav{
     float: right;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
+
 }
 
-.menu{
+.nav-item{
     padding-left: 10px;
     padding-right: 10px;
     text-transform: uppercase;
 
 }
 
-.menu a{
-    font-size: 35px;
+.nav-item a{
+    font-size: 25px;
     font-family: cinemaR, Courier, 'Courier New', monospace;
     letter-spacing: 5px;
     color: aliceblue;
@@ -72,7 +89,7 @@ header{
     border: 3px solid #3a3a3b;
 }
 
-.menu a:hover{
+.nav-item a:hover{
     color: #333;
     border: 3px groove #3a3a3b;
     background-color: aliceblue;
@@ -80,19 +97,42 @@ header{
 
 main{
     padding: 2%;
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     background-color: #505050;
 }
+.jumbotron{
+background-image: url(../source/Cinema\ Banner.png);
+background-size: cover;
+background-position: center;
+height: 450px;
+border-radius: 0;
+margin-bottom: 0;
+}
+.jumbotron h1{
+    font-family: cinemaB, Courier, 'Courier New', monospace;
+    color: #D8A952;
+    text-shadow: 0 0 20px #000;
+}
+.jumbotron p{
+    font-family: cinemaB, Courier, 'Courier New', monospace;
+    color: aliceblue;
+    text-shadow: 0 0 20px #000;
+}
 
-#profile{
+.nleft{
+    background-image: url(../source/Perfil1.png);
+    background-size: cover;
+    background-position: center;
     height: 400px;
-    width: auto;
-    border-radius: 20%;
+}
+
+.nright{
+    text-align: center;
 }
 
 #descProfile{
-    float: right;
+    padding: 30px;
 }
 
 footer{

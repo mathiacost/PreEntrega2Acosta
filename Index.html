@@ -4,25 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
     <link rel="stylesheet" href="./style/style.css">
     <title>MathiasAcosta</title>
 </head>
 <body>
     <header>
-        <aside class="logo"><a href="./index.html"> Mathias <span>ACOSTA</span></a></aside>
-        <nav class="barra">
-            <div class="menu"><a href="./pages/intereses.html">Intereses</a> </div>
-            <div class="menu"><a href="./pages/habilidades.html">Habilidades</a></div>
-            <div class="menu"><a href="./pages/trabajos.html">Trabajos</a></div>
-            <div class="menu"><a href="./pages/contacto.html">Contacto</a></div>
+        <!-- Navbar Ini -->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+            <!-- Brand -->
+            <a class="navbar-brand logo" href="./index.html">Mathias <span>ACOSTA</span></a>
+            
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="./pages/intereses.html">Intereses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./pages/habilidades.html">Habilidades</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./pages/trabajos.html">Trabajos</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./pages/contacto.html">Contacto</a>
+                </li>
+                </ul>
+            </div>
         </nav>
+        <!-- Nav bar fin -->
     </header>
-    <main>
-        <img id= "profile" src= "./source/Perfil1.png" alt="Perfil">
-        <p id= "descProfile">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem quaerat quae blanditiis voluptas reiciendis nulla illum iste sit placeat veniam nemo, laboriosam eum vel, ex, odio et enim commodi corporis molestiae. Neque animi illo fugit? Debitis quibusdam cum quod consectetur nam? Officiis dolore earum, dolorum temporibus eos illo iste minima blanditiis suscipit obcaecati nihil minus officia provident ullam, quos similique?</p>
-        <h1></h1>
+    <!-- Nosotros ini -->
+    <div class="jumbotron">
+        <h1>Diseñador y Desarrollador</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ex.</p>
+        </div> 
+    <main class="container-fluid">
+        <div class="row">
+        <aside class="col-md-6 col-lg-4 nleft"></aside>
+        <aside class="col-md-6 col-lg-8 nright">
+            <p id= "descProfile">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit eos unde provident ipsum quidem natus, tempora quod tenetur aut! Molestiae optio quam dolorum delectus facilis soluta deserunt, ipsum aperiam quia suscipit reprehenderit fuga quis vitae, tempora natus harum explicabo eos officia. Placeat excepturi, provident distinctio tenetur dicta quisquam, cumque, unde harum deserunt eos non accusantium eveniet sequi ratione. Minus, totam.</p>
 
+            </aside>
+        </div>
     </main>
+            <!-- Nosotros fin -->
     <footer>
         <div class="fItem fItem1">
             <div class="line line1">Mathias Acosta</div>
@@ -32,5 +64,9 @@
         <div class="fItem copyright">Todos los derechos reservados ©</div>
         <div class="fItem ctFooter">No dude en <a href="./pages/contacto.html">Contactar</a></div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+
 </body>
 </html>
