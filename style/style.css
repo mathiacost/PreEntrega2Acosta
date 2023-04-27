@@ -184,7 +184,7 @@ h2{
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #3a3a3b;
-    
+
 }
 
 .carrousel{
@@ -192,10 +192,6 @@ h2{
     height: auto;
 }
 
-.mainAll{
-    height: 100%;
-    padding:70px;
-}
 
 .form{
     height: auto;
@@ -224,3 +220,8 @@ h2{
     background-color: #505050;
     border: 3px solid black;
 }
+
+.contactMain{
+    height: 80vh;
+}
+
