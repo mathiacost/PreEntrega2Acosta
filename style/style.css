@@ -28,10 +28,6 @@ header{
     justify-content: space-between;
 }
 
-/* .logo{
-    float: left;
-    
-} */
 
 .logo {
     text-decoration: none;
@@ -95,11 +91,11 @@ header{
     background-color: aliceblue;
 }
 
-main{
+.main{
     padding: 2%;
-    height: 50vh;
+    height: auto;
     width: 100%;
-    background-color: #505050;
+    background-color: #505050 !important;
 }
 .jumbotron{
 background-image: url(../source/Cinema\ Banner.png);
@@ -140,9 +136,6 @@ footer{
     width: 100%;
     text-align: left;
     background-color: #3a3a3b;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 .fItem1{
@@ -151,29 +144,29 @@ footer{
 }
 
 .line{
-    font-size: 35px;
+    font-size: 20px;
     letter-spacing: 3px;
     font-family: cinemaB, Courier, 'Courier New', monospace;
 }
 
 .copyright{
     width: 550px;
-    font-size: 35px;
+    font-size: 20px;
     letter-spacing: 3px;
     font-family: cinemaB, Courier, 'Courier New', monospace;
-    padding: 67px 30px 67px 30px;
+    padding: 30px;
     text-align: center;
 }
 
 .ctFooter{
-    padding: 67px 30px 67px 30px;
-    font-size: 35px;
+    padding: 30px;
+    font-size: 20px;
     letter-spacing: 3px;
     font-family: cinemaB, Courier, 'Courier New', monospace;
-    text-align: center;
+    text-align: right;
 }
 .ctFooter a{
-    font-size: 35px;
+    font-size: 20px;
     font-family: cinemaB, Courier, 'Courier New', monospace;
 }
 
@@ -191,6 +184,7 @@ h2{
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #3a3a3b;
+    
 }
 
 .carrousel{
